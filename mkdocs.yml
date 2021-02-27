@@ -7,6 +7,24 @@ repo_name: non_tech_writing
 repo_url: https://github.com/LeoSirius/non_tech_writing/
 
 theme:
+  palette:
+
+    # Light mode
+    - scheme: default
+      primary: light green
+      accent: light green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
   name: material
   favicon: logo.png
   logo: logo.png
