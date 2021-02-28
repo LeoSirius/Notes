@@ -18,3 +18,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 
+markdown_extensions:
+  - toc:
+      toc_depth: 3
+
